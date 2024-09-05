@@ -6,8 +6,8 @@
 #=========================================================================================
 
 base_url = "https://i-ilak.github.io"
-title = "Test ZZ"
-description = "xxxx xxxx xxxx"
+title = "i-ilak's blog"
+description = "Virtual notebook for some things im interested in or trying to learn."
 default_language = "en"
 theme = "serene"
 output_dir = "public"
@@ -57,7 +57,7 @@ recent_more = true
 recent_more_text = "more »"
 
 sections = [
-    { name = "blog", path = "/blog", is_external = false },
+    # { name = "blog", path = "/blog", is_external = false },
     { name = "projects", path = "/projects", is_external = false },
     { name = "books", path = "/books", is_external = false },
     # { name = "about", path = "/about", is_external = false },

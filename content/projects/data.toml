@@ -7,3 +7,12 @@ links = [
   { name = "Github", url = "https://github.com/i-ilak/daqtt" },
 ]
 
+[[project]]
+name = "piOS - Baremetal playground for the Raspberry Pi"
+desc = "In late 2022, I developed a strong interest in embedded systems, despite having minimal prior knowledge in the field. I'm a big fan of learning by doing, so I decided to read some tutorials and blog posts and just give it a shot at building a basic embedded system. I chose the Raspberry Pi as my platform due to the extensive resources available, and the fact that I already owned a couple of different models. This project was highly educational, providing me with hands-on experience in key areas such as integrating assembly language with C to initialize the CPU, writing custom allocators to manage both virtual and physical memory, and how the CPU on the Pi communicates with its GPU."
+tags = ["baremetal", "raspberry_pi", "embedded", "linux", "c"]
+img = ""
+links = [
+  { name = "Github", url = "https://github.com/i-ilak/pios" },
+]
+
