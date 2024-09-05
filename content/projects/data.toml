@@ -1,0 +1,9 @@
+[[project]]
+name = "daqtt - Data aquisition over MQTT"
+desc = "Project that lets the user easily setup an `mqtt`-broker and an instance of `influxdb`. Still WIP, but already useable. We had some embedded devices where the debugging was quite cumbersome since you had to connect some debug-cable to the device, open a terminal, create a connection, etc. Most of the devices we cared about were already outputting the data on some port, so we just build a small translation unit to forward the data coming in over the wire to an `mqtt`-broker."
+tags = ["mqtt", "influxdb", "iot", "logging", "debugging"]
+img = ""
+links = [
+  { name = "Github", url = "https://github.com/i-ilak/daqtt" },
+]
+
